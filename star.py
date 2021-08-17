@@ -25,4 +25,4 @@ def star(n):
         
         
 
-print(star(2))
+print(star(5))
