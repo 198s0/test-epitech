@@ -1,6 +1,12 @@
 def star(n):
     if n==0 :
         return n
+    elif n==1:
+        print(' '*5,'*')
+        print('*'*(2*n+1),' '*4,'*'*(2*n+1))
+        print('','*',' '*4,' ','*')
+        print('*'*(2*n+1),' '*4,'*'*(2*n+1))
+        print(' '*5,'*') 
     else:
         for i in range(n):
             if i==0:
@@ -25,4 +31,5 @@ def star(n):
         
         
 
+print(star(1))
 print(star(5))
