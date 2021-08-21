@@ -26,5 +26,5 @@ def star(n):
                 print(' '*(2*n+(n-i-1))+'*'+' '*(2*(i-1)+1)+'*')
             
 
-print(star(1))
-print(star(5))
+star(1)
+star(5)
